@@ -1,13 +1,17 @@
 import React from "react";
-import SignupContainer from './pages/SignupContainer';
 import './App.css';
+// import SignupContainer from './pages/SignupContainer';
+import ProfileContainer from './pages/ProfileContainer'
 
 class App extends React.Component {
 
     render() {
         return (
             <div>
-                <SignupContainer />
+                <div className='app-background'>
+                    {/* <SignupContainer /> */}
+                    <ProfileContainer />
+                </div>
             </div>
         )
     }
