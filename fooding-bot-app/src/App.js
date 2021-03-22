@@ -4,7 +4,7 @@ import './App.css';
 // import ProfileContainer from './pages/ProfileContainer'
 // import MyFoodingContainer from './pages/MyFoodingContainer';
 // import PasswordContainer from './pages/PasswordContainer';
-// import MypageContainer from './pages/MypageContainer.js';
+import MypageContainer from './pages/MypageContainer.js';
 
 class App extends React.Component {
 
@@ -16,7 +16,7 @@ class App extends React.Component {
                     {/* <ProfileContainer /> */}
                     {/* <MyFoodingContainer /> */}
                     {/* <PasswordContainer /> */}
-                    {/* <MypageContainer /> */}
+                    <MypageContainer />
                 </div>
             </div>
         )
