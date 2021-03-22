@@ -1,5 +1,6 @@
 import React from 'react';
 import undo from '../images/undo.png';
+import searchIcon from '../images/search-icon.png';
 
 function SignupContainer() {
     return (
@@ -22,7 +23,11 @@ function SignupContainer() {
                     <label>입력하신 비밀번호가 다릅니다. 다시 한번 확인해주세요.</label>
 
 
-                    <div className='signup-input-address'><input type='text' placeholder='주소' /></div>
+                    <div className='signup-input-address'><input type='text' placeholder='주소' />
+                        <span className='icon'>
+                            <img className='search-icon' src={searchIcon} />
+                        </span>
+                    </div>
                     <div><input type='number' placeholder="한끼 예산" /></div>
 
                     <button className='signup-submit-button' type='submit'>Create Account</button>

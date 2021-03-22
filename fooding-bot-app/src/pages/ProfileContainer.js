@@ -20,7 +20,11 @@ function ProfileContainer() {
                     </div>
                     <div id='profile-user-name'>user name</div>
                     <label htmlFor='profile-user-name' className='profile-user-name-label'>이름 또는 사용자 이름을 설정할 수 있습니다.</label>
-                    <div className='profile-address'><input type='text' placeholder='주소' /><span className='icon'><img className='search-icon' src={searchIcon}></img></span></div>
+                    <div className='profile-address'><input type='text' placeholder='주소' />
+                        <span className='icon'>
+                            <img className='search-icon' src={searchIcon} />
+                        </span>
+                    </div>
                     <div><input type='number' placeholder="한끼 예산" /></div>
                     <button>비밀번호 변경</button>
                 </div>
