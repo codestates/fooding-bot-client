@@ -7,7 +7,7 @@ function ProfileContainer() {
 
 
     return (
-        <div className='app-background'>
+        <div className='profile-screen'>
             <div className='app-top-menu'>
                 <img className='undo' src={undo} />
                 <button>저장</button>
@@ -26,7 +26,6 @@ function ProfileContainer() {
                 </div>
             </div>
         </div>
-
     );
 }
 

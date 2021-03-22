@@ -11,7 +11,7 @@ function MyFoodingContainer() {
 
 
     return (
-        <div className='app-background'>
+        <div className='mf-screen'>
             <div className='my-fooding'>
                 <div className='app-top-menu'>
                     <img className='undo' src={undo} />

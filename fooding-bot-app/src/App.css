@@ -23,7 +23,6 @@
   .app-top-menu {
     display: inline-block;
     width: 100%;
-    /* height: 50px; */
     height: 70px;
     padding: 10px;
   }
@@ -58,6 +57,20 @@
   button:hover {
     background-color: #DB9E81;
   }
+
+  input {
+    font-size: 1.2rem;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 6pt 2pt #DB9E81;
+    background : #FAEBD7;
+  }
+
 
 
   /* signup */
@@ -146,7 +159,7 @@
   .app-box > div > input {
     width: 80%;
     height: 40px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
   }
 
   .app-box > button {
@@ -290,4 +303,155 @@
   .mf-score > img {
     width: 35px;
     height: 35px;
+  }
+
+/* password page */
+  .pw-input-area {
+    padding-top: 25%;
+  }
+
+  .pw-input-area > .app-wrap > .app-box > div > input {
+    width: 100%;
+    height: 50px;
+  }
+
+  .pw-input-area > .app-wrap > .app-box > div > label {
+    font-size: small;
+    color: #DB9E81;
+  }
+
+  .pw-input-area > .app-wrap > .app-box > div {
+    padding-bottom: 20px;
+  }
+
+      /* login */
+      .login-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #FDC27C;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+  
+    .login-logo {
+      margin: 0 auto 15px;
+      padding: 0;
+      width: 120px;
+      height: 120px;
+      display: block;
+  
+    }
+  
+    .login-to-your-account {
+      margin-left: 65px;
+      color: grey;
+    }
+  
+    .login-input-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .login-input-box {
+    width: 250px;
+    text-align: center;
+  }
+  
+  .login-input-box > div {
+    justify-content: center;
+    padding-bottom: 7px;
+    align-items: center;
+  }
+  
+  .login-input-box > div > input {
+    width: 100%;
+    height: 40px;
+  }  
+  
+  /* login-auto-switch */
+  
+  .login-switch-wrap {
+    margin-right: 150px;
+  }
+  
+  .login-switch-button {
+    position: relative; display: inline-block; width: 40px; height: 20px; 
+  }
+  
+  .login-switch-button input {
+    opacity: 0; width: 0; height: 0;
+  }
+  
+  .onoff-switch { 
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0; border-radius:20px; 
+    background-color: #ccc; 
+    box-shadow: inset 1px 5px 1px #999; -webkit-transition: .4s;
+    transition: .4s; 
+  }
+  
+  .onoff-switch:before {
+  position: absolute;
+  content: "";
+  height: 15px; width: 14px; left: 4px; bottom: 2px; background-color: #fff;
+  -webkit-transition: .5s; 
+  transition: .4s; 
+  border-radius:20px; 
+  }
+  
+  .login-switch-button input:checked + .onoff-switch { background-color: #FDC27C;
+  box-shadow: inset 1px 3px 1px #E3AE56; 
+  } 
+  
+  .login-switch-button input:checked + .onoff-switch:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(20px); 
+  }
+  
+  .auto-login {
+    color: grey;
+    font-size: 10px;
+    margin-left: 7px;
+    font-weight: bold;
+  }
+  
+  
+  .login-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-only-button {
+    margin-top:10px ;
+    width: 250px;
+    font-size: 1rem
+  }
+  
+  .login-buttons {
+    font-size: 1.1rem;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .social {
+    margin-top: 40px;
+  }
+  
+  .team-name {
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: #FDC27C;
+    text-align: center;
+    padding-top: 40px;
   }

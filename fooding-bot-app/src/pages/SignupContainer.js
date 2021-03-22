@@ -3,9 +3,8 @@ import undo from '../images/undo.png';
 
 function SignupContainer() {
     return (
-        <div className='app-background'>
+        <div className='signup-screen'>
             <div className='app-top-menu'>
-                {/* {'<-'} */}
                 <img className='undo' src={undo} />
             </div>
             <div className='signup-title'>Create new Account</div>
