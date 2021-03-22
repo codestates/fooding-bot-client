@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 // import SignupContainer from './pages/SignupContainer';
 // import ProfileContainer from './pages/ProfileContainer'
-import MyFoodingContainer from './pages/MyFoodingContainer';
+// import MyFoodingContainer from './pages/MyFoodingContainer';
 
 class App extends React.Component {
 
@@ -12,7 +12,7 @@ class App extends React.Component {
                 <div className='app-background'>
                     {/* <SignupContainer /> */}
                     {/* <ProfileContainer /> */}
-                    <MyFoodingContainer />
+                    {/* <MyFoodingContainer /> */}
                 </div>
             </div>
         )
