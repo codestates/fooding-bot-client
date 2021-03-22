@@ -22,7 +22,6 @@ function SignupContainer() {
                     <div><input type='password' placeholder="비밀번호 확인" /></div>
                     <label>입력하신 비밀번호가 다릅니다. 다시 한번 확인해주세요.</label>
 
-
                     <div className='signup-input-address'><input type='text' placeholder='주소' />
                         <span className='icon'>
                             <img className='search-icon' src={searchIcon} />
