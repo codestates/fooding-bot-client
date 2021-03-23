@@ -387,8 +387,8 @@
 .login-logo {
   margin: 0 auto 15px;
   padding: 0;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   display: block;
 
 }
@@ -412,8 +412,7 @@ text-align: center;
 
 .login-input-box > div {
 justify-content: center;
-padding-top: 10px;
-padding-bottom: 5px;
+padding-bottom: 7px;
 align-items: center;
 }
 
@@ -495,7 +494,7 @@ height: 50px;
 }
 
 .social {
-margin-top: 25px;
+margin-top: 40px;
 }
 
 .team-name {
@@ -503,5 +502,5 @@ font-weight: bold;
 font-size: 1.0rem;
 color: #FDC27C;
 text-align: center;
-padding-top: 10px;
+padding-top: 40px;
 }
