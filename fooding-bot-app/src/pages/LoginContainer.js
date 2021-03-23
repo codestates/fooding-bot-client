@@ -1,5 +1,5 @@
 import React from "react";
-import fooding from '../images/fooding-icon.png';
+import fooding from '../images/fooding-logo.png';
 
 function Login() {
 
