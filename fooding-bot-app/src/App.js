@@ -7,12 +7,16 @@ import './App.css';
 // import PasswordContainer from './pages/PasswordContainer';
 // import MypageContainer from './pages/MypageContainer.js';
 // import OthersFoodingScoreContainer from "./pages/OthersFoodingScoreContainer";
+import MainPageContainer from './pages/MainPageContainer';
+
+
 class App extends React.Component {
 
     render() {
         return (
             <div>
                 <div className='app-background'>
+                    <MainPageContainer />
                     {/* <LoginContainer /> */}
                     {/* <SignupContainer /> */}
                     {/* <ProfileContainer /> */}

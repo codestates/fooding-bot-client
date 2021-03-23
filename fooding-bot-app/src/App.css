@@ -542,3 +542,159 @@ align-items: center;
   width: 50px;
   height: 50px;
 }
+
+/* mainpage */
+.ma-top-menu {
+  display: flex;
+  border: 1px solid gray;
+  margin: 20px 10px;
+  height: 190px;
+  border-radius: 15%;
+}
+
+.ma-top-right > button {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background-color: #DB9E81 !important; 
+}
+
+.ma-top-right > button:hover {
+  background-color: #A74C53 !important;
+}
+
+.ma-food-btn {
+  margin-right: 5px;
+}
+
+.ma-myp-btn {
+  margin-left: 5px;
+}
+
+.ma-service-ment {
+  width: 190px;
+  height: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  color: black;
+}
+
+.ma-service-ment > p {
+  display: inline-block;
+  margin-top: 0px;
+  padding-top: 6px;
+}
+
+.ma-icon {
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
+}
+
+.ma-username {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #DB631F !important;
+}
+
+.ma-content {
+  position: relative;
+  margin: 10px;
+  width: 340px;
+  height: 400px;
+  background-color: #FDC27C;
+  border-radius: 10%;
+  z-index: 1;
+}
+
+.ma-cnt-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 310px;
+  height: 380px;
+  margin: 10px 20px;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+}
+
+.ma-cnt-box {
+  display: flex;
+}
+
+.ma-fd-left {
+  margin: 0;
+  display: inline-block;
+}
+
+.ma-fd-right {
+  margin: 30px 10px 20px 0px;
+  display: inline-block;
+  width: 220px;
+}
+
+.ma-fooding-bubble {
+  display: inline-block;
+  min-width: 220px;
+  padding: 10px;
+  background-color: #FFEFD5;
+  color:  black;
+}
+
+.ma-fooding-bubble > div > button {
+  background-color: #DB9E81 !important;
+  padding: 8px 10px !important;
+  margin: 5px 3px !important;
+}
+
+.ma-fooding-bubble > div > button:hover {
+  background-color: #A74C53 !important;
+}
+
+.ma-fooding-bubble > div > input {
+  width: 180px;
+  margin-left: 5px;
+}
+
+.ma-food-area {
+  padding-bottom: 15px;
+}
+
+.ma-food-area > img {
+  width: 130px;
+  height: 130px;
+}
+
+.ma-user-left {
+  margin: 0;
+  display: inline-block;
+}
+
+.ma-user-right {
+  margin: 0px 10px 20px 10px;
+  padding: 0 5px;
+  display: inline-block;
+  width: 80px;
+}
+
+.ma-user-bubble {
+  width: 190px;
+  height: 50px;
+  margin-top: 10px;
+  padding: 15px 5px;
+  background-color: #CBFF75;
+  color:  black;
+}
+
+.u-choice-1 {
+  color: #DB631F;
+  font-weight: bold;
+}
+
+.ma-user-right > img {
+  width: 80px;
+  height: 80px;
+}
