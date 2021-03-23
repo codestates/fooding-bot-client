@@ -1,7 +1,11 @@
 import React from "react";
 import './App.css';
+<<<<<<< HEAD
 import LoginContainer from './pages/LoginContainer';
 // import SignupContainer from './pages/SignupContainer';
+=======
+import SignupContainer from './pages/SignupContainer';
+>>>>>>> 7bf7b8580b76aa21bceca9f91748002bdd5e3981
 // import ProfileContainer from './pages/ProfileContainer'
 // import MyFoodingContainer from './pages/MyFoodingContainer';
 // import PasswordContainer from './pages/PasswordContainer';
@@ -16,8 +20,12 @@ class App extends React.Component {
         return (
             <div>
                 <div className='app-background'>
+<<<<<<< HEAD
                     <LoginContainer />
                     {/* <SignupContainer /> */}
+=======
+                    <SignupContainer />
+>>>>>>> 7bf7b8580b76aa21bceca9f91748002bdd5e3981
                     {/* <ProfileContainer /> */}
                     {/* <MyFoodingContainer /> */}
                     {/* <PasswordContainer /> */}
