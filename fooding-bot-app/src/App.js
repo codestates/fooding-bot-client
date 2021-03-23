@@ -7,6 +7,7 @@ import './App.css';
 // import PasswordContainer from './pages/PasswordContainer';
 // import MypageContainer from './pages/MypageContainer.js';
 // import OthersFoodingScoreContainer from "./pages/OthersFoodingScoreContainer";
+// import FoodingScoreContainer from "./pages/FoodingScoreContainer";
 class App extends React.Component {
 
     render() {
@@ -20,6 +21,7 @@ class App extends React.Component {
                     {/* <PasswordContainer /> */}
                     {/* <MypageContainer /> */}
                     {/* <OthersFoodingScoreContainer /> */}
+                    {/* <FoodingScoreContainer/> */}
                 </div>
             </div>
         )
