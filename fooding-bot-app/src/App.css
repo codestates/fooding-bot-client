@@ -71,7 +71,15 @@
     background : #FAEBD7;
   }
 
+<<<<<<< HEAD
 
+=======
+  .search-icon {
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+>>>>>>> c1de29ab2544649f2ba99dbbd4a5eba336890b29
 
   /* signup */
   .signup-title {
@@ -116,7 +124,7 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
     color: gray;
   }
@@ -134,6 +142,17 @@
     margin: 20px;
     width: 200px;
     height: 50px;
+  }
+
+  .signup-input-address {
+    position: relative;
+    margin-top: 10px;
+  } 
+
+  .signup-input-address > .icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
   }
 
   /* profile */
@@ -159,7 +178,10 @@
   .app-box > div > input {
     width: 80%;
     height: 40px;
+<<<<<<< HEAD
     /* padding-left: 15px; */
+=======
+>>>>>>> c1de29ab2544649f2ba99dbbd4a5eba336890b29
   }
 
   .app-box > button {
@@ -215,12 +237,6 @@
     position: absolute;
     right: 40px;
     top: 8px;
-  }
-
-  .search-icon {
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
   }
 
   /* my fooding */
@@ -324,6 +340,7 @@
     padding-bottom: 20px;
   }
 
+<<<<<<< HEAD
       /* login */
       .login-title {
         font-style: normal;
@@ -454,4 +471,45 @@
     color: #FDC27C;
     text-align: center;
     padding-top: 40px;
+=======
+  /* mypage */
+  .myp-default {
+    width: 200px;
+    height: 180px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+
+  .myp-user-name {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    color: #DB631F !important;
+  }
+
+  .payment {
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+    color: #DB9E81 !important;
+  }
+
+  .myp-btn-profile {
+    margin: 0px 0px 50px 0px !important;
+    padding: 3px !important;
+    width: 110px !important;
+    height: 40px !important;
+    font-size: 1.1rem !important;
+  }
+
+  .myp-btn {
+    margin: 10px;
+    padding: 3px;
+    width: 110px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+
+  .myp-address {
+    height: 100px !important;
+    color: #DB631F !important;
+>>>>>>> c1de29ab2544649f2ba99dbbd4a5eba336890b29
   }

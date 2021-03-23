@@ -5,6 +5,10 @@ import LoginContainer from './pages/LoginContainer';
 // import ProfileContainer from './pages/ProfileContainer'
 // import MyFoodingContainer from './pages/MyFoodingContainer';
 // import PasswordContainer from './pages/PasswordContainer';
+<<<<<<< HEAD
+=======
+// import MypageContainer from './pages/MypageContainer.js';
+>>>>>>> c1de29ab2544649f2ba99dbbd4a5eba336890b29
 
 class App extends React.Component {
 
@@ -17,6 +21,10 @@ class App extends React.Component {
                     {/* <ProfileContainer /> */}
                     {/* <MyFoodingContainer /> */}
                     {/* <PasswordContainer /> */}
+<<<<<<< HEAD
+=======
+                    {/* <MypageContainer /> */}
+>>>>>>> c1de29ab2544649f2ba99dbbd4a5eba336890b29
                 </div>
             </div>
         )
