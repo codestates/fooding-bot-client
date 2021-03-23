@@ -504,3 +504,41 @@ color: #FDC27C;
 text-align: center;
 padding-top: 40px;
 }
+
+.fooding-score-wrap {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.recommend-img {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+.score {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #FDC27C;
+}
+
+.avg-fooding {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #FDC27C;
+}
+
+.avg-fooding-score {
+  width: 300px;
+  height: 100px;
+  margin: 0;
+  padding: 10px 0px 0px 20px;
+}
+
+.avg-fooding-score > img {
+  width: 50px;
+  height: 50px;
+}

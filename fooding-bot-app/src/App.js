@@ -1,12 +1,12 @@
 import React from "react";
 import './App.css';
 // import LoginContainer from './pages/LoginContainer';
-import SignupContainer from './pages/SignupContainer';
+// import SignupContainer from './pages/SignupContainer';
 // import ProfileContainer from './pages/ProfileContainer'
 // import MyFoodingContainer from './pages/MyFoodingContainer';
 // import PasswordContainer from './pages/PasswordContainer';
 // import MypageContainer from './pages/MypageContainer.js';
-
+// import OthersFoodingScoreContainer from "./pages/OthersFoodingScoreContainer";
 class App extends React.Component {
 
     render() {
@@ -14,11 +14,12 @@ class App extends React.Component {
             <div>
                 <div className='app-background'>
                     {/* <LoginContainer /> */}
-                    <SignupContainer />
+                    {/* <SignupContainer /> */}
                     {/* <ProfileContainer /> */}
                     {/* <MyFoodingContainer /> */}
                     {/* <PasswordContainer /> */}
                     {/* <MypageContainer /> */}
+                    {/* <OthersFoodingScoreContainer /> */}
                 </div>
             </div>
         )
