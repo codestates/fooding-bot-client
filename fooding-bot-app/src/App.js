@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-// import LoginContainer from './pages/LoginContainer';
+import LoginContainer from './pages/LoginContainer';
 // import SignupContainer from './pages/SignupContainer';
 // import ProfileContainer from './pages/ProfileContainer'
 // import MyFoodingContainer from './pages/MyFoodingContainer';
@@ -13,7 +13,7 @@ class App extends React.Component {
         return (
             <div>
                 <div className='app-background'>
-                    {/* <LoginContainer /> */}
+                    <LoginContainer />
                     {/* <SignupContainer /> */}
                     {/* <ProfileContainer /> */}
                     {/* <MyFoodingContainer /> */}
