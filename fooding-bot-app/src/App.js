@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 // import LoginContainer from './pages/LoginContainer';
 // import SignupContainer from './pages/SignupContainer';
-// import MainPageContainer from './pages/MainPageContainer';
+import MainPageContainer from './pages/MainPageContainer';
 // import ProfileContainer from './pages/ProfileContainer'
 // import MyFoodingContainer from './pages/MyFoodingContainer';
 // import PasswordContainer from './pages/PasswordContainer';
@@ -18,7 +18,7 @@ class App extends React.Component {
                 <div className='app-background'>
                     {/* <LoginContainer /> */}
                     {/* <SignupContainer /> */}
-                    {/* <MainPageContainer /> */}
+                    <MainPageContainer />
                     {/* <ProfileContainer /> */}
                     {/* <MyFoodingContainer /> */}
                     {/* <PasswordContainer /> */}
