@@ -741,3 +741,7 @@ align-items: center;
   width: 65px;
   height: 65px;
 }
+
+.top-nav {
+  margin: 5px 5px 5px 5px;
+}
