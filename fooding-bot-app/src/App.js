@@ -5,7 +5,7 @@ import {
     Switch,
     Route,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
 
 import LoginContainer from './pages/LoginContainer';
 import SignupContainer from './pages/SignupContainer';
@@ -32,54 +32,54 @@ class App extends React.Component {
                 <Link to='/Password' className='top-nav'>패스워드 변경</Link>
                 <Link to='/Mypage' className='top-nav'>마이 페이지</Link>
                 <div className='app-background'>
-            <Switch>
-                {/* 로그인 */}
-                <Route exact ={true} path="/">
-                    <LoginContainer  />
-                </Route> 
+                    <Switch>
+                        {/* 로그인 */}
+                        <Route exact={true} path="/">
+                            <LoginContainer />
+                        </Route>
 
-                {/* 메인 페이지  */}
-                <Route path="/Main">
-                    <MainPageContainer />
-                </Route>
+                        {/* 메인 페이지  */}
+                        <Route path="/Main">
+                            <MainPageContainer />
+                        </Route>
 
-                {/* 회원가입 */}
-                <Route path="/Signup">
-                    <SignupContainer />
-                </Route>
+                        {/* 회원가입 */}
+                        <Route path="/Signup">
+                            <SignupContainer />
+                        </Route>
 
-                {/* 푸딩 점수 매기기 */}
-                <Route path="/FoodingScore">
-                    <FoodingScoreContainer />
-                </Route>
+                        {/* 푸딩 점수 매기기 */}
+                        <Route path="/FoodingScore">
+                            <FoodingScoreContainer />
+                        </Route>
 
-                {/* 추천음식 평균 점수 보기 */}
-                <Route path="/OthersFoodingScore">
-                    <OthersFoodingScoreContainer />
-                </Route>
+                        {/* 추천음식 평균 점수 보기 */}
+                        <Route path="/OthersFoodingScore">
+                            <OthersFoodingScoreContainer />
+                        </Route>
 
-                {/* 내 푸딩 관리 */}
-                <Route path="/MyFooding">
-                    <MyFoodingContainer />
-                </Route>
+                        {/* 내 푸딩 관리 */}
+                        <Route path="/MyFooding">
+                            <MyFoodingContainer />
+                        </Route>
 
-                {/* 프로필 편집 */}
-                <Route path="/Profile">
-                    <ProfileContainer />
-                </Route>
+                        {/* 프로필 편집 */}
+                        <Route path="/Profile">
+                            <ProfileContainer />
+                        </Route>
 
-                {/* 패스워드 */}
-                <Route path="/Password">
-                    <PasswordContainer />
-                </Route>
+                        {/* 패스워드 */}
+                        <Route path="/Password">
+                            <PasswordContainer />
+                        </Route>
 
-                {/* 마이페이지 */}
-                <Route path="/Mypage">
-                    <MypageContainer />
-                </Route>
+                        {/* 마이페이지 */}
+                        <Route path="/Mypage">
+                            <MypageContainer />
+                        </Route>
 
-            </Switch>
-            </div>
+                    </Switch>
+                </div>
             </Router>
             // <div>
             //     <div className='app-background'>
