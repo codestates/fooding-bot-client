@@ -1,5 +1,6 @@
 import React from "react";
 import fooding from '../images/fooding-logo.png';
+import {Link} from "react-router-dom";
 
 function Login() {
 
@@ -20,7 +21,8 @@ function Login() {
           <label className='auto-login'>자동 로그인</label>
             </div>
 
-          <button className='login-only-button' type='submit'>로그인</button>
+            <Link to='/Main'> <button className='login-only-button' type='submit'>
+            로그인</button></Link> 
 
         </div>
 
@@ -28,9 +30,9 @@ function Login() {
       
       
       <div className='login-btn-wrap'>
-      <button className='login-buttons social'>소셜 로그인</button>
-      <button className='login-buttons '>비회원 로그인</button>
-      <button className='login-buttons' type='submt'>회원가입</button>
+      <Link to='/Main'><button className='login-buttons social'>소셜 로그인</button></Link>
+      <Link to='/Main'><button className='login-buttons '>비회원 로그인</button></Link>
+      <Link to='/Signup'><button className='login-buttons' type='submt'>회원가입</button></Link>
       </div>
 
     <div className='team-name'>by R.F.D</div>

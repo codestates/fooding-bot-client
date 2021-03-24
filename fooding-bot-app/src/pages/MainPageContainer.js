@@ -4,6 +4,7 @@ import fooding from '../images/fooding-icon.png';
 import user from '../images/user-pr-black.png';
 
 import sample1 from '../images/sample/sample-food-1.png';
+import {Link} from "react-router-dom";
 
 function MainPageContainer() {
     return (
@@ -18,7 +19,7 @@ function MainPageContainer() {
                         푸딩봇을 이용해 주셔서 감사합니다!</p>
                     </div>
                     <button className='ma-food-btn'>음식 추천</button>
-                    <button className='ma-myp-btn'>마이페이지</button>
+                    <Link to='/Mypage'><button className='ma-myp-btn'>마이페이지</button></Link>
                 </div>
             </div>
 
@@ -128,9 +129,9 @@ function MainPageContainer() {
                         </div>
                         <div className='ma-fd-right'>
                             <div className='ma-fooding-bubble'>
-                                <div className='ma-food-area'>
+                            <Link to='OthersFoodingScore'><div className='ma-food-area'>
                                     <img src={sample1} />
-                                </div>
+                                </div></Link>
                                 <div>
                                     오늘의 추천 음식은
                                     {" '"}<span className='u-choice-1'>햄버거</span>{"'"} 입니다.
@@ -155,7 +156,7 @@ function MainPageContainer() {
                             <div className='ma-fooding-bubble'>
                                 <div>맛있게 드셨나요? <br /> 푸딩을 달아주세요!</div>
                                 <div>
-                                    <button>푸딩주기</button>
+                                <Link to='/FoodingScore'><button>푸딩주기</button></Link>
                                 </div>
                             </div>
                         </div>

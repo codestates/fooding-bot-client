@@ -2,12 +2,13 @@ import React from 'react';
 import undo from '../images/undo.png';
 import searchIcon from '../images/search-icon.png';
 import warning from '../images/warning-sign-icon.png';
+import {Link} from "react-router-dom";
 
 function SignupContainer() {
     return (
         <div className='signup-screen'>
             <div className='app-top-menu'>
-                <img className='undo' src={undo} />
+                <Link to='/'><img className='undo' src={undo} /></Link>
             </div>
             <div className='signup-title'>Create new Account</div>
 
@@ -39,7 +40,7 @@ function SignupContainer() {
                     </div>
                     <div><input type='number' placeholder="한끼 예산" /></div>
 
-                    <button className='signup-submit-button' type='submit'>Create Account</button>
+                    <Link to='/'><button className='signup-submit-button' type='submit'>Create Account</button></Link>
                 </div>
             </div>
 
