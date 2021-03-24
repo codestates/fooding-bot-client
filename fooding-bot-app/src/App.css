@@ -657,13 +657,13 @@ align-items: center;
   color:  black;
 }
 
-.ma-fooding-bubble > div > button {
+.choice-btn {
   background-color: #DB9E81 !important;
   padding: 8px 10px !important;
   margin: 5px 3px !important;
 }
 
-.ma-fooding-bubble > div > button:hover {
+.choice-btn:hover {
   background-color: #A74C53 !important;
 }
 
@@ -757,4 +757,8 @@ align-items: center;
 .fs-fooding-score > img {
   width: 65px;
   height: 65px;
+}
+
+.top-nav {
+  margin: 5px 5px 5px 5px;
 }

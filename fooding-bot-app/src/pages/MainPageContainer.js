@@ -4,6 +4,7 @@ import UserAnswer from '../components/UserAnswer.js';
 import foodingT from '../images/fooding-talk.png';
 
 import sample1 from '../images/sample/sample-food-1.png';
+import { Link } from "react-router-dom";
 
 function MainPageContainer() {
 
@@ -66,7 +67,7 @@ function MainPageContainer() {
                         푸딩봇을 이용해 주셔서 감사합니다!</p>
                     </div>
                     <button className='ma-food-btn' onClick={() => setIsFooding(true)}>음식 추천</button>
-                    <button className='ma-myp-btn'>마이페이지</button>
+                    <Link to='/Mypage'><button className='ma-myp-btn'>마이페이지</button></Link>
                 </div>
             </div>
 
@@ -79,11 +80,6 @@ function MainPageContainer() {
                         ment={<div>한식, 중식, 일식, 양식 중에서 <br />어느걸 드시겠습니까?</div>}
                         choice={['한식', '중식', '일식', '양식']}
                     />}
-                    {/* <Fooding
-                        handleUserChoice={handleFoodCategory}
-                        ment={<div>한식, 중식, 일식, 양식 중에서 <br />어느걸 드시겠습니까?</div>}
-                        choice={['한식', '중식', '일식', '양식']}
-                    /> */}
 
                     {/* user case #1 */}
                     {foodCategory.name !== '' && <UserAnswer
@@ -124,9 +120,11 @@ function MainPageContainer() {
                     {isAfter.recommend && <Fooding
                         handleUserChoice={handleReview}
                         img={
-                            <div className='ma-food-area'>
-                                <img src={sample1} />
-                            </div>
+                            <Link to='OthersFoodingScore'>
+                                <div className='ma-food-area'>
+                                    <img src={sample1} />
+                                </div>
+                            </Link>
                         }
                         ment={
                             <div>

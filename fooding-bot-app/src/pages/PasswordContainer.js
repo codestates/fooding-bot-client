@@ -1,5 +1,6 @@
 import React from 'react';
 import undo from '../images/undo.png';
+import {Link} from "react-router-dom";
 
 function PasswordContainer() {
 
@@ -7,8 +8,8 @@ function PasswordContainer() {
     return (
         <div className='pw-screen'>
             <div className='app-top-menu'>
-                <img className='undo' src={undo} />
-                <button>저장</button>
+                <Link to='/Profile'><img className='undo' src={undo} /></Link>
+                <button><Link to='/Profile'>저장</Link></button>
             </div>
             <div className='pw-input-area'>
                 <div className='app-wrap'>

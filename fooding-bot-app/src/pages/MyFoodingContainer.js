@@ -1,6 +1,7 @@
 import React from 'react';
 import undo from '../images/undo.png';
 import fooding from '../images/fooding-icon.png';
+import {Link} from "react-router-dom";
 
 import sample1 from '../images/sample/sample-food-1.png';
 import sample2 from '../images/sample/sample-food-2.png';
@@ -14,7 +15,7 @@ function MyFoodingContainer() {
         <div className='mf-screen'>
             <div className='my-fooding'>
                 <div className='app-top-menu'>
-                    <img className='undo' src={undo} />
+                    <Link to='Mypage'><img className='undo' src={undo} /></Link>
                 </div>
             </div>
             <div>

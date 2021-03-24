@@ -2,6 +2,7 @@ import React from 'react';
 import undo from '../images/undo.png';
 import profileDefault from '../images/profile-user-default.png';
 import searchIcon from '../images/search-icon.png';
+import {Link} from "react-router-dom";
 
 function ProfileContainer() {
 
@@ -9,8 +10,10 @@ function ProfileContainer() {
     return (
         <div className='profile-screen'>
             <div className='app-top-menu'>
-                <img className='undo' src={undo} />
-                <button>저장</button>
+                <Link to='/Mypage'><img className='undo' src={undo} /></Link>
+                
+                <button><Link to='/Mypage'>저장</Link></button>
+                
             </div>
             <div className='app-wrap'>
                 <div className='app-box'>
@@ -26,7 +29,7 @@ function ProfileContainer() {
                         </span>
                     </div>
                     <div><input type='number' placeholder="한끼 예산" /></div>
-                    <button>비밀번호 변경</button>
+                    <Link to='/Password'><button>비밀번호 변경</button></Link>
                 </div>
             </div>
         </div>
