@@ -127,8 +127,7 @@
 
   .signup-email-check-button {
     float: right;
-    width: 70px;
-    height: 30px;
+    padding: 10px 20px !important;
   }
 
   .signup-submit-button {
@@ -149,6 +148,18 @@
     position: absolute;
     right: 10px;
     top: 8px;
+  }
+
+  .pw-check {
+    color:red !important;
+  }
+
+  .warning-icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 13px;
+    height: 13px;
+    margin-right: 3px;
   }
 
   /* profile */
