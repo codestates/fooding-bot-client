@@ -695,7 +695,7 @@ align-items: center;
 }
 
 .ma-user-bubble {
-  width: 190px;
+  width: 200px;
   min-height: 50px;
   margin-top: 10px;
   padding: 15px 5px;
@@ -705,19 +705,19 @@ align-items: center;
 .ma-user-area {
   display: flex;
   text-align: left;
+  flex-direction: column;
 }
 
 .ma-user-area > button {
+  width: 50px;
+  margin-top: 5px;
   padding: 5px 8px;
+  margin-left: auto;
   background-color: #DB9E81 !important;
 }
 
 .ma-user-area > button:hover {
   background-color: #A74C53 !important;
-}
-
-.ma-user-answer {
-  width: 140px;
 }
 
 .u-choice-1 {
