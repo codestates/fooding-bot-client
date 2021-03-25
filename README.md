@@ -21,10 +21,22 @@
 
 <img src="https://img.shields.io/badge/Back-black?style=for-the-badge&logo=Amazon%20S3&logoColor=yellowgreen"/><img src="https://img.shields.io/badge/Amazon%20S3-green?style=for-the-badge"/>   
 
-# 프로젝트 기능
-<!-- GIF -->
 
-# 팀원
+
+# 프로젝트 기능
+<!-- login -->
+![login](https://user-images.githubusercontent.com/70124288/112434521-0c378a80-8d87-11eb-8099-589096f8a85e.gif)
+
+<!-- main -->
+![main](https://user-images.githubusercontent.com/70124288/112434592-1d809700-8d87-11eb-8e4d-d619d8bfddf3.gif)
+   
+<!-- score -->
+![score](https://user-images.githubusercontent.com/70124288/112434619-23767800-8d87-11eb-86a9-6b9f63bf5133.gif)
+
+<!-- logout -->
+![test3](https://user-images.githubusercontent.com/70124288/112434639-28d3c280-8d87-11eb-97c8-41fcf2bb8b68.gif)
+
+# RFD (Random Food Defencers)
 ☀️ 신희국 : Frontend   
 ☀️ 이상운 : Frontend / 팀장   
 🌙 이성우 : Backend   
@@ -32,3 +44,4 @@
 
 # Details
 [Wiki](https://github.com/codestates/fooding-bot-client/wiki)
+
